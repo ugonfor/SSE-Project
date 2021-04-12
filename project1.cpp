@@ -33,7 +33,7 @@ void init(void){
 void menu(void){
     printf("What do you want to do?\n");
     printf("1. Insert the Phone number.\n");
-    printf("2. Find the Phonen number.\n");
+    printf("2. Find the Phone number.\n");
     printf("3. Find the Person.\n");
     printf("4. Save and Exit!\n");
 }
@@ -161,7 +161,7 @@ int main(int argc, char const *argv[])
             break;
         
         default:
-            printf("[ERROR] Invalid Number");
+            printf("[ERROR] Invalid Number\n");
             break;
         }
 
